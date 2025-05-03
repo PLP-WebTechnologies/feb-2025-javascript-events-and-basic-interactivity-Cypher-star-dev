@@ -1,0 +1,94 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 20px;
+  background: #eee;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button.clicked {
+  background: green;
+}
+
+.secret {
+  background: #c0392b;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  display: none;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+#gallery img {
+  width: 100px;
+  height: 70px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#mainPic {
+  display: block;
+  margin-top: 15px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+#tabButtons button {
+  margin-right: 5px;
+  border-radius: 5px 5px 0 0;
+  background: #ddd;
+  border: 1px solid #ccc;
+}
+
+#tabButtons button.active {
+  background: white;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+#tabContent {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 15px;
+  border-radius: 0 5px 5px 5px;
+  margin-top: -1px;
+  min-height: 50px;
+}
+
+input {
+  width: 280px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.error {
+  border-color: red;
+}
+
+input.success {
+  border-color: green;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 0.85em;
+  margin-left: 6px;
+}
